@@ -1,0 +1,5 @@
+{
+    "require": {
+        "afosto/yaac": "^1.2"
+    }
+}

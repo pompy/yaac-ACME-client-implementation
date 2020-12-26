@@ -1,0 +1,22 @@
+<html>
+<body>
+<center>
+<form method="post" action="init-process.php" >
+<label for="domainName">Enter domain name(s)</label>
+<input id="domainName" type="text" name="domainName" placeholder="yourdomain.com, www.yourdomain.com" required="">
+<label for="emailAddress">Enter Email</label>
+<input id="emailAddress" type="email" name="emailAddress" placeholder="youremail@gmail.com" required="">
+<div class="verification-type"><br/>
+(http recommended)<br/>
+<input type="radio" id="http" name="verificationType" value="http" checked="checked">
+<label class="radio-btn" for="http">HTTP</label>
+<input type="radio" id="dns" name="verificationType" value="dns">
+<label class="radio-btn" for="dns">DNS</label>
+</div>
+<input id="agreeTos" type="checkbox" name="agreeTos" required="">
+<label class="radio-btn" for="agreeTos">Accept <a href="https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf" target="_blank">Let's Encrypt SA (pdf)</a></label>
+<input type="submit" class="ssl-submit" value="Create free SSL Certficate">
+</form>
+</center>
+</body>
+</html>
