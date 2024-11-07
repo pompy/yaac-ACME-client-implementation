@@ -5,3 +5,4 @@
 * git clone https://github.com/pompy/yaac-ACME-client-implementation
 * compose install
 * works with php 7.4 otherwise would require minor adjustments in code
+* ref  https://sslgenerator.tekweiser.com/
